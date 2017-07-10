@@ -1,0 +1,10 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00401392
+eax=811BAB11 ebx=0022CCAC ecx=0022B670 edx=611BAADF esi=612F1A60 edi=611D7DB2
+ebp=0022CC58 esp=0022CB60 program=C:\Users\Sergio\Desktop\CppApplication_1\dist\Debug\Cygwin-Windows\cppapplication_1.exe, pid 5108, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022CC58  00401392 (004042DE, 0022CC7C, 0022CD84, 61006A70)
+0022CC88  00401221 (00000001, 0022CCAC, 20000100, 610079DA)
+0022CD28  61007A3F (00000000, 0022CD84, 61006A70, 00000000)
+End of stack trace
